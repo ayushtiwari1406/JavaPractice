@@ -5,3 +5,13 @@ When -- Submit the API with HTTP Method/resource name
 Then -- Validate the response -- assertion / log().all() for output
 
 JSONPath is a class which takes string as input and convert that into json format as output and to parse JSON.
+
+size() is a method in jsonpath which return count. It is only used with array.
+
+
+************************Libraryapi -- DynamicJson.java
+Files.readAllBytes(Path path) --> read content of file and convert it to bytes format and then
+bytes to string-- for converting bytes to string -- need to wrap input with new sting()...
+it receives path of file as path class such ass -->Paths.get("")
+
+

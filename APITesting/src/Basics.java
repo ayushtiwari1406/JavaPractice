@@ -4,6 +4,9 @@ import io.restassured.path.json.JsonPath;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
+import org.testng.Assert;
+
+import files.ReusableMethod;
 import files.payload;
 public class Basics {
 
@@ -53,11 +56,14 @@ public class Basics {
 		
 		.then().log().all().assertThat().statusCode(200).extract().response().asString();
 	
-	JsonPath js1 = new JsonPath(getPlaceresponse); //parse JSON
-	String getplaceID = js.getString("address");
+	JsonPath js1 = ReusableMethod.rawToJSON(getPlaceresponse);
+	String getplaceAddress = js1.getString("address");
+	
+	System.out.println("get place address: " + getplaceAddress);
 		
-		
-		
+	Assert.assertEquals(getplaceAddress, newAddress);
+	
+	System.out.println("******************************Assertion Pass***********************************");
 		
 		
 		

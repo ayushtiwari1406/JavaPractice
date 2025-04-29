@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-21T15:35:18Z" name="Default suite" finished-at="2022-01-21T15:35:21Z" duration-ms="3630">
+    <groups>
+    </groups>
+    <test started-at="2022-01-21T15:35:18Z" name="Default test" finished-at="2022-01-21T15:35:21Z" duration-ms="3630">
+      <class name="com.education.LibraryAPI.DynamicJson">
+        <test-method signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:com.education.LibraryAPI.DynamicJson@6bf08014]" started-at="2022-01-21T15:35:18Z" name="addBook" data-provider="BookData" finished-at="2022-01-21T15:35:20Z" duration-ms="2614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Science]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:com.education.LibraryAPI.DynamicJson@6bf08014]" started-at="2022-01-21T15:35:20Z" name="addBook" data-provider="BookData" finished-at="2022-01-21T15:35:21Z" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Socialscience]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:com.education.LibraryAPI.DynamicJson@6bf08014]" started-at="2022-01-21T15:35:21Z" name="addBook" data-provider="BookData" finished-at="2022-01-21T15:35:21Z" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Economics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="deleteBook(java.lang.String, java.lang.String)[pri:1, instance:com.education.LibraryAPI.DynamicJson@6bf08014]" started-at="2022-01-21T15:35:21Z" name="deleteBook" data-provider="BookData" finished-at="2022-01-21T15:35:21Z" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Science]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+        <test-method signature="deleteBook(java.lang.String, java.lang.String)[pri:1, instance:com.education.LibraryAPI.DynamicJson@6bf08014]" started-at="2022-01-21T15:35:21Z" name="deleteBook" data-provider="BookData" finished-at="2022-01-21T15:35:21Z" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Socialscience]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+        <test-method signature="deleteBook(java.lang.String, java.lang.String)[pri:1, instance:com.education.LibraryAPI.DynamicJson@6bf08014]" started-at="2022-01-21T15:35:21Z" name="deleteBook" data-provider="BookData" finished-at="2022-01-21T15:35:21Z" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Economics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+        <test-method signature="addPlaceWithJSONFile()[pri:2, instance:com.education.LibraryAPI.DynamicJson@6bf08014]" started-at="2022-01-21T15:35:21Z" name="addPlaceWithJSONFile" finished-at="2022-01-21T15:35:21Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlaceWithJSONFile -->
+      </class> <!-- com.education.LibraryAPI.DynamicJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
